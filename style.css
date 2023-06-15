@@ -27,8 +27,13 @@ dd.clear { float: none; margin: 0; height: 15px; }
 	border-width: 7px;
 }
 
-.marked-span::before {
+.marked-span-1::before {
   content: "•"; /* Add your desired symbol or mark here */
+  margin-right: 2px; /* Adjust the spacing between the mark and the text */
+}
+
+.marked-span-2::before {
+  content: "-"; /* Add your desired symbol or mark here */
   margin-right: 2px; /* Adjust the spacing between the mark and the text */
 }
 
